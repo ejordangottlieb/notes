@@ -1,10 +1,11 @@
 # Ansible Cookbook
+Useful techniques, playbook syntax, and module use examples.   
 
 
 ## Variables
 
-### How to increment a ansible fact
-An equivalent to python x += 1
+### How to increment an ansible fact
+This example will replicate python x += 1 integer increment:
 
 ```yaml
 - name: Set x to initial value
@@ -17,4 +18,7 @@ An equivalent to python x += 1
 - name: Debug print the value of x
   debug: msg="{{ x }}"
 ```
+
+### Creating and updating a dynamic list
+
 
