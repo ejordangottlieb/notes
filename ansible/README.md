@@ -3,7 +3,7 @@ Useful techniques, playbook syntax, and module use examples.
 
 ## Variables
 
-### How to increment an ansible fact
+### How to increment an Ansible fact
 This example will replicate python x += 1 integer increment:
 
 ```yaml
@@ -37,6 +37,5 @@ Use to store and employ facts generated during a playbook run.  This particular 
   with_items:
     "{{ report_volume_IDs.results }}"
 ```
-
 
 
