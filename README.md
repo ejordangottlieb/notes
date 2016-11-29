@@ -3,6 +3,7 @@ Click on these links to reach my notes on these various topics:
 
 ## [Ansible Cookbook](https://github.com/ejordangottlieb/notes/blob/master/ansible/README.md)
 ## [Openstack Heat Cookbook](https://github.com/ejordangottlieb/notes/blob/master/heat/README.md)
+## [Openstack CLI Syntax](https://github.com/ejordangottlieb/notes/blob/master/ostackshell/README.md)
 
 # Other Peoples References
 Resources shared by others that I find useful:
