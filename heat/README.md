@@ -2,7 +2,14 @@
 Various examples of Heat usage.   
 
 ## Basic Template Skeleton
-                   
+Current valid version options are:
+- 2013-05-23
+- 2014-10-16
+- 2015-04-30
+- 2015-10-15
+- 2016-04-08
+- 2016-10-14 (newton)
+- 2017-02-24 (ocata)                  
 
 ```yaml
 heat_template_version: [ version ]
