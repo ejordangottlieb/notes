@@ -38,4 +38,18 @@ Use to store and employ facts generated during a playbook run.  This particular 
     "{{ report_volume_IDs.results }}"
 ```
 
+## Basic Environment
+
+### Localhost only template
+
+- ansible.cfg
+```
+[defaults]
+inventory = ./inventory
+```
+
+- inventory
+```
+localhost       ansible_connection=local
+```
 
