@@ -40,7 +40,7 @@ Use to store and employ facts generated during a playbook run.  This particular 
 
 ## Basic Environment
 
-### Localhost only template
+### Localhost Only template
 
 - ansible.cfg
 ```
@@ -51,5 +51,18 @@ inventory = ./inventory
 - inventory
 ```
 localhost       ansible_connection=local
+```
+
+## The Usual Suspects Modules
+
+### Template
+```yaml
+- name:
+  template: 
+    src=srctemplate 
+    dest=destinationfile 
+    owner=changeme
+    group=changeme 
+    mode=0xxx
 ```
 
