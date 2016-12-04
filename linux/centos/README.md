@@ -26,3 +26,8 @@ NM_CONTROLLED=no
 BRIDGE=brname
 ```
 
+### Static Routes
+-/etc/sysconfig/network-scripts/route-intname
+```
+192.0.2.0/24 via 1.1.1.2 dev eth1
+```
