@@ -7,7 +7,7 @@ Various examples of Exabgp Syntax
 This example advertises two VPN prefixes with the following attributes:
 
 * Prefix: 172.16.3.0/24
-.* rd 1:1
+..* rd 1:1
 .* med 0;
 .* next-hop 1.1.1.1
 .* route-target(RT) 100:100
