@@ -6,13 +6,13 @@ Various examples of Exabgp Syntax
 ### BGP/MPLS IPv4 Virtual Private network
 This example advertises two VPN prefixes with the following attributes:
 
-1. Prefix: 172.16.3.0/24
+* Prefix: 172.16.3.0/24
   * rd 1:1
   * med 0
   * next-hop 1.1.1.1
   * route-target(RT) 100:100
   * label 24014 (the target label of the terminating PE VRF)
-2. Prefix: 192.168.0.0/16
+* Prefix: 192.168.0.0/16
   * rd 1:1
   * med 0
   * next-hop 1.1.1.1
