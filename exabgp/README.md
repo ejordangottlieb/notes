@@ -20,7 +20,7 @@ This example advertises two VPN prefixes with the following attributes:
   * label 24014
   * The prefix will be advertised as multiple /22 prefixes
 
-```
+```xml
 neighbor 1.1.1.5 {
         description "a VPNV4 test peer";
         router-id 192.168.122.60;
