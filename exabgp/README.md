@@ -20,6 +20,7 @@ This example advertises two VPN prefixes with the following attributes:
   * label 24014
   * The prefix will be advertised as multiple /22 prefixes
 
+
 ```text
 neighbor 1.1.1.5 {
         description "a VPNV4 test peer";
