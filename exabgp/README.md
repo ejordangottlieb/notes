@@ -7,18 +7,18 @@ Various examples of Exabgp Syntax
 This example advertises two VPN prefixes with the following attributes:
 
 * Prefix: 172.16.3.0/24
-** rd 1:1
-** med 0;
-** next-hop 1.1.1.1
-** route-target(RT) 100:100
-** label 24014 (the target label of the terminating PE VRF)
+.* rd 1:1
+.* med 0;
+.* next-hop 1.1.1.1
+.* route-target(RT) 100:100
+.* label 24014 (the target label of the terminating PE VRF)
 * Prefix: 192.168.0.0/16
-** rd 1:1
-** med 0;
-** next-hop 1.1.1.1
-** route-target(RT) 100:100
-** label 24014
-** The prefix will be advertised as multiple /22 prefixes
+.* rd 1:1
+.* med 0;
+.* next-hop 1.1.1.1
+.* route-target(RT) 100:100
+.* label 24014
+.* The prefix will be advertised as multiple /22 prefixes
 
 ```
 neighbor 1.1.1.5 {
