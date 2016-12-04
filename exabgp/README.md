@@ -22,6 +22,7 @@ This example advertises two VPN prefixes with the following attributes:
 
 
 ```text
+
 neighbor 1.1.1.5 {
         description "a VPNV4 test peer";
         router-id 192.168.122.60;
