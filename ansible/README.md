@@ -1,6 +1,12 @@
 # Ansible Cookbook
 Useful techniques, playbook syntax, and module use examples.   
 
+## Centos 7 PIP Install Dependencies
+- python-devel
+- python-pip
+- gcc
+- openssl-devel
+
 ## Variables
 
 ### How to increment an Ansible fact
